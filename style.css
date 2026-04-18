@@ -1,0 +1,61 @@
+body {
+    background-color: #fff7cc; /* kuning pastel */
+    font-family: Arial;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #d63384; /* pink */
+}
+
+h2 {
+    color: #d63384;
+}
+
+h3 {
+    color: #c2185b;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.card {
+    background-color: #ffe6f0; /* pink pastel */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* FOTO BULAT */
+.foto {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ffb6c1;
+}
+
+/* GALLERY */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 150px;
+    border-radius: 10px;
+    border: 3px solid #ffb6c1;
+}
